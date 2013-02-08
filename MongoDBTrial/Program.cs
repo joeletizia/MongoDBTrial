@@ -64,5 +64,6 @@ namespace MongoDBTrial
         public string Notes { get; set; }
         public int Owner { get; set; }
         public DateTime LastUpdate { get; set; }
+        public int SecretNumber { get; set; }
     }
 }
